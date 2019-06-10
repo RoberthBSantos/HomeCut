@@ -5,21 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AddServiceActivity">
+    tools:context=".CadastroActivity">
 
     <EditText
-        android:id="@+id/et_add_nome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nome do servico"/>
-
+        android:hint="Nome"
+        android:inputType="text"/>
     <EditText
-        android:id="@+id/et_add_valor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Valor do serviço"
-        android:inputType="numberDecimal"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginTop="15dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Senha"
+        android:inputType="textPassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Digite a senha novamente"
+        android:inputType="textPassword"/>
 
     <Button
         android:layout_width="270dp"
@@ -33,10 +43,8 @@
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="5"
-        android:text="Adicionar Serviço"
+        android:text="Cadastrar"
         android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        android:onClick="adicionarServico"/>
-
+        android:textSize="30sp"/>
 
 </LinearLayout>
