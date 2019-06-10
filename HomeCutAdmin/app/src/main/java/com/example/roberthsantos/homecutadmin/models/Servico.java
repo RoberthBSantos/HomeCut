@@ -1,4 +1,4 @@
-package com.example.roberthsantos.homecutadmin;
+package com.example.roberthsantos.homecutadmin.models;
 
 public class Servico {
     public String getIdServico() {
